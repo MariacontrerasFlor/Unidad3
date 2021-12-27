@@ -1,0 +1,69 @@
+//Aplicando lo aprendido 1
+//Método indexof
+//Encontrar el primer índice de algún elemento que estoy buscando
+
+var arr1 = ['Alexia', 'Azumy', 'Azumy','Eva', 'Keila', 'Alexia', 'Eva', 'Azumy'];
+//Devuelve 0
+//alert(arr1.indexOf('Alexia'));
+//Devuelve -1, no encuentra el elemento
+//alert(arr1.indexOf('Jafeht'));
+//Indicar desde dónde busca
+//Devuelve 5
+//alert(arr1.indexOf('Eva',3));
+
+//Aplicando lo aprendido 2
+//Método lastindexof
+//Encontrar el último índice de algún elemento que estoy buscando
+
+//Devuelve 6
+//alert(arr1.lastIndexOf('Azumy'));
+
+//Devuelve -1, no encuentra el elemento
+//alert(arr1.lastIndexOf('Jafeht'));
+
+//Devuelve 6
+//alert(arr1.lastIndexOf('Azumy',2));
+
+//Aplicando lo aprendido 3
+//Método includes
+//Verifica si existe el elemento o no, dentro de un arreglo
+var arr2 = ['Flor','Yasuri','Kelly','Marjied','Maria'];
+//true or false, en este caso devuelve falso ya que debió ser Yasuri
+//alert(arr2.includes('yasuri'));//tener cuidado con las mayúsculas
+
+var arr3 = ['Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Flor','Yasuri','Kelly','Marjied','Maria'];
+//podemos ayudar a reducir la carga en la búsqueda
+//alert(arr3.includes('Yasuri',70));
+
+//Aplicando lo aprendido 4
+//Método find
+//Devuelve el valor del elemento que cumpla alguna condición
+var arr4 = ['Flor','Yasuri','Kelly','Marjied','Maria'];
+
+//alert(arr4.find(em => em.length > 3));
+
+//Aplicando lo aprendido 5
+//Método findIndex
+//Devuelve el índice del elemento que cumpla alguna condición
+
+//alert(arr4.findIndex(em => em.length > 5));
+
+//Aplicando lo aprendido 6
+//Método filter
+//Devuelve un arreglo con los elementos que cumplan una condicion
+
+
+var arr5 = arr4.filter(em => em.length < 6);
+//alert(arr5);
+
+//El siguiente ejemplo usasr filter() para crear un arreglo filtrado que excluye todos los elementos con valores inferiores a 10
+
+function esSuficientementeGrande(elemento){
+    if (elemento >= 10){
+        return elemento;
+    }
+}
+
+arr6 = [12, 5, 8, 130, 44];
+arr7 = arr6.filter(esSuficientementeGrande);
+alert(arr7);

@@ -1,0 +1,52 @@
+//Aplicando lo aprendido 1
+//Dos maneras de crear un objeto
+var Persona = {}; //Forma 1
+var Persona = new Object(); //Forma 2
+
+//Aplicando lo aprendido 2
+//Agregar atributos a un objeto
+//Forma 1
+Persona.nombre = "Jafeht";
+Persona.edad = "22";
+Persona.nacionalidad = "Peruana";
+Persona.estatura = 164 ;
+Persona.profesion = "Ingeniero mecatrónico"; 
+
+//Forma 2
+Persona["peso"]= 70;
+Persona["apellido"] = "Bendezú";
+Persona["genero"] = "masculino";
+Persona["actitud"] = "empático";
+Persona["cabello"] = "sí";
+Persona["colorFavorito"] = "rojo";
+
+//Detalle opcional, definir un objeto inicialmente
+var Persona2 = {
+    nombre: "Dayanna", 
+    edad: 22,
+    nacionalidad: "peruano",
+}
+Persona2.genero = "femenino";
+
+//Aplicando lo aprendido 3
+//Mostrar los atributos de algún objeto
+//Forma 1
+//Cambiar algunos atributos
+/*/*/
+Persona.nombre = "José";
+Persona.edad = "25";
+Persona["peso"]= 80;
+Persona["apellido"] = "Martinez";
+/*/*/
+
+
+console.log('Persona')
+console.log('nombre', Persona.nombre); //Jafeht --- José
+console.log('edad', Persona.edad); //22 --- 25
+console.log('apellido', Persona.apellido); // Bendezú -- Martinez
+
+console.log('Persona2')
+console.log('genero', Persona2.genero); //femenino
+console.log('edad', Persona2.edad); //22
+console.log('profesion', Persona2.nacionalidad); //peruana
+
