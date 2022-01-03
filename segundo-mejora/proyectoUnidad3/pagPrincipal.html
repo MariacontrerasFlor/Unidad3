@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="asset/css/2ste.css">
+</head>
+<body>
+    <header>
+      <div class="contenedor">
+         <figure>
+           <img class="avatar" src="data:image/png;base64,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" alt="logo de netflix" id="avatar">
+           <a href="file:///C:/Users/UGEL_02/Documents/Unidad3/index.html"></a>
+         </figure>
+         <nav class="yup">
+           <ul class="het"> 
+             <li class="nova"><a href="file:///C:/Users/UGEL_02/Documents/Unidad3/index.html">Inicio</a></li>
+             <form class="flex">
+               <input class="tot2" type="search" placeholder="Search" aria-label="Search">
+               <button class="popup" type="submit">Search</button> 
+             </form>
+         </nav>
+           </ul>
+           
+     </div> 
+   </header>
+   <div class="contenedor1">
+   <img src="https://pymstatic.com/21157/conversions/peliculas-de-suspense-wide.jpg" >
+    </div>
+
+   <h2>ACCION</h2>
+    <ul class="flex-container1">
+        <li class="flex-item">
+           <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8A1Wev-mk3NS69lzvcphQVS_aSHvD6tVttQ&usqp=CAU"></a>
+        </li>
+        <li class="flex-item">
+            <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://i.pinimg.com/originals/3d/20/54/3d205484c97f2d6807b8fa2dc3824f05.jpg"
+             onclick="pasarPelicula(`The Marksman`)"></a>
+         </li>
+         <li class="flex-item">
+            <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROcKyqBJ1ZQPDXLonIfgxCwyyrpNQrqBme8w&usqp=CAU"></a>
+         </li>
+         <li class="flex-item">
+            <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://sm.ign.com/ign_latam/screenshot/default/marco-key-002-h_y8np.jpg"></a>
+         </li>
+        
+    </ul>
+       
+   
+    <h2>COMEDIA</h2>
+    <ul class="flex-container1">
+        <li class="flex-item">
+         <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"></a>
+        </li>
+        <li class="flex-item">
+         <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"></a>
+         </li>
+         <li class="flex-item">
+            <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://elcomercio.pe/resizer/pFuTC1nZ0WBP8G5aWIhaJNOBWCk=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/RYZWJRUQV5CPRM5GDKNEESUP7I.jpg"></a>
+         </li>
+         <li class="flex-item">
+            <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://static.platzi.com/media/user_upload/falsa-identidad-pelicula-netflix-07ad1b24-f6cf-4b01-8738-911b23abfa54.jpg"></a>
+         </li>
+         
+    </ul>
+
+
+    <h2>TERROR</h2>
+    <ul class="flex-container1">
+        <li class="flex-item">
+         <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79smCKrAa1z6OYV2LWdgRJEMOwBJYizgauQ&usqp=CAU"></a>
+        </li>
+        <li class="flex-item">
+         <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79smCKrAa1z6OYV2LWdgRJEMOwBJYizgauQ&usqp=CAU"></a>
+         </li>
+         <li class="flex-item">
+            <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79smCKrAa1z6OYV2LWdgRJEMOwBJYizgauQ&usqp=CAU"></a> 
+         </li>
+         <li class="flex-item">
+            <a  href="file:///C:/Users/UGEL_02/Documents/Unidad3/segundo-mejora/proyectoUnidad3/plantilla_pel%C3%ADcula.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79smCKrAa1z6OYV2LWdgRJEMOwBJYizgauQ&usqp=CAU"></a>
+         </li>
+         
+    </ul>
+
+<div class="mrc">
+   
+</div>
+    
+
+
+    
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+         <script src="asset/js/api.js"></script>
+</body>
+</html>

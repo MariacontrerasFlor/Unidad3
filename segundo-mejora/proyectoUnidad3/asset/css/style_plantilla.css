@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  background-color: #000000;
+}
+header{
+  margin-top:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+  display:flex;
+
+  
+}
+
+#loli {
+  position:absolute;
+  left:40px;
+  top:8px;
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  z-index:99999;}
+  
+
+  .contenedor{
+    display:flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+ }
+ header .yup{
+  display:flex;
+}
+  figure {display:inline;
+  }
+  .popup{
+    background: rgba(255, 0, 0, 0.685);
+	border: wheat;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 9px;
+   height: 30px;
+   position: absolute;
+   left: 1200px;
+   top:10px;
+  
+   .nova {
+    float: left;
+    position: relative;
+}
+
+.nova a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:transparent;
+    
+    
+}
+
+.nova a:hover {
+    background-color: rgb(175, 0, 0);
+}
+
+}
+
+.avatar {
+  position:absolute;
+  left:40px;
+  top:8px;
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  z-index:99999;}
+  
+
+  figure {display:inline;
+  }
+
+
+  .nova {
+      float: left;
+  }
+  
+  .nova a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  .nova a:hover {
+      background-color: rgb(175, 0, 0);
+  }
+
+  .het {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+      width: 85%;
+      height: none;
+      position:absolute;
+      top:0px;
+      bottom:50;
+      left: 200px ;
+      
+      
+  
+  }
+.flex{
+  height: 60px;
+  width:1250px;
+  background-color: transparent;
+}
+.tot{
+  color: #fff;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tot2{
+  display: flex;
+  position: relative;
+  left: 800px;
+  width: 300px;
+  height:40px;
+}
+
+  header .yup{
+      display:flex;
+  }
+
+
+h1 {
+  margin: 0;
+  background-color: rgb(145, 0, 0);
+  padding: 40px;
+  font-size: 3rem;
+}
+
+#contenedorimg {
+  margin: 30px;
+}
+
+#contenedorimg img {
+  width: 400px;
+  height: 480px;
+}
+
+tr {
+  display: flex;
+}
+
+#conetenedorDatosPelicula {
+  /*background-color: rgb(156, 238, 204);*/
+  padding-left: 30px; /*Aumentar esto para que se valla más a la izquierda*/
+  padding-right: 30px;
+}
+
+#conetenedorDatosPelicula h2 {
+  font-size: 35px;
+  color:#fff
+}
+
+#conetenedorDatosPelicula p {
+  font-size: 20px;
+  line-height: 30px; /*Aumenta separación entre líneas*/
+  text-align: justify;
+}
+#contenedorTrailer {
+  display: flex;
+  justify-content: center;
+  color_:#fff;
+}
+
+#trailer {
+  font-size: 35px;
+  padding-left: 30px;
+  /*margin: ;*/ /*podemos ajustar posición de trailer*/
+}
+
+
+p{
+  color:#fff
+}

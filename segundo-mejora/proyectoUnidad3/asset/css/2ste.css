@@ -1,0 +1,175 @@
+body{
+    margin-top: 0;
+}
+header{
+    margin-top:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    display:flex;
+
+    
+ }
+
+ .avatar {
+    position:absolute;
+    left:40px;
+    top:8px;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    z-index:99999;}
+    
+
+    figure {display:inline;
+    }
+
+    .nova {
+        float: left;
+        position: relative;
+    }
+    
+    .nova a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color:transparent;
+        
+        
+    }
+    
+    .nova a:hover {
+        background-color: rgb(175, 0, 0);
+    }
+
+    .het {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: transparent;
+        width: 85%;
+        height: none;
+        position:absolute;
+        top:0px;
+        bottom:50;
+        left: 200px ;
+        
+        
+    
+    }
+
+    .mrc{
+        background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/09/netflix-2084279.jpg?itok=ElXHgN-6");
+       background-size: 500px 300px;
+        width:500px;
+        height: 300px;
+        position: absolute;
+        top: 1200px;
+        opacity:0.4;
+        
+    }
+    header .yup{
+        display:flex;
+    }
+     
+    .flex{
+        height: 60px;
+        width:1250px;
+        background-color: transparent;
+      }
+
+      .tot2{
+        display: flex;
+        position: relative;
+        left: 600px;
+        width: 300px;
+        height:40px;
+      }
+
+   
+      .popup{
+        background: rgba(255, 0, 0, 0.685);
+        border: wheat;
+        border-radius: 0.31em;
+        padding: 0.93em 1.87em;
+        color: #fff;
+        margin-right: 1.25em;
+        cursor: pointer;
+        font-size: 9px;
+       height: 30px;
+       position: absolute;
+       left: 1000px;
+       top:10px;
+       
+    
+    }
+
+h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(139, 0, 0);
+    padding: 0;
+    display: block;
+    margin-top:0;
+    margin-bottom: 20px;
+}   
+
+h2{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #000000;
+    padding: 0;
+  }
+
+
+.flex-container1{
+    display: flex;
+    /*flex-wrap: nowrap; Flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    padding:0px;
+    margin: 0;
+    list-style: none;
+}
+
+.contenedor1{
+    display: flex;
+    /*flex-wrap: nowrap; Flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content:space-around;
+    padding:0;
+    margin: 0;
+}
+
+.boton{
+    background: rgba(255, 0, 0, 0.685);
+	border: wheat;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 9px;
+   height: 30px;
+
+}
+.flex-container1 .flex-item {
+    width: 250px;
+    height: 300px;
+    line-height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.flex-container1 .flex-item img {
+    width: 250px;
+    height: 300px;
+}
